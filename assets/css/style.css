@@ -148,7 +148,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  color: #911d1d;
   font-family: var(--heading-font);
 }
 
@@ -161,7 +162,8 @@ p {
 }
 
 a {
-  color: inherit;
+  /* color: inherit; */
+  color: #911d1d;
   text-decoration: none;
   color: var(--dark-color);
 }
@@ -2860,7 +2862,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
   transition: all 0.3s ease-in;
-  color: #16215c;
+  /* color: #16215c; */
+  color: #911d1d;
 }
 
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
@@ -4805,7 +4808,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .header-area .title {
   font-size: 50px;
   line-height: 60px;
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  color:#911d1d;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -7571,7 +7575,7 @@ Client Area
 }
 
 .btn-wrapper .boxed-btn.medical-btn {
-  background-color: #2b86ff;
+  background-color: #911d1d;
   border: none;
 }
 
@@ -8398,7 +8402,8 @@ Client Area
 .accordion-wrapper .card .card-header a.white {
   background-color: #fff;
   font-size: 18px;
-  color: #000629;
+  /* color: #000629; */
+  color:#911d1d;
 }
 
 .accordion-wrapper .card .card-header a.white.style-01:after {
@@ -8997,7 +9002,8 @@ Client Area
   font-size: 32px;
   line-height: 42px;
   font-weight: 700;
-  color: #16215c;
+  /* color: #16215c; */
+  color: #911d1d;
 }
 
 .section-title.brand span {
@@ -11044,7 +11050,8 @@ Single package item
 .frequently-area .content .title {
   font-size: 48px;
   line-height: 60px;
-  color: #16215c;
+  /* color: #16215c; */
+  color: #911d1d;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -12649,7 +12656,7 @@ Single package item
 
 .about-video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width * 100) */
+  padding-bottom: 72.25%; /* 16:9 aspect ratio (height/width * 100) */
   height: 0;
   overflow: hidden;
   max-width: 100%;
