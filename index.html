@@ -2526,12 +2526,12 @@
                 const overallSchools = parseInt(entry.overall_schools);
                 dataOfmap[district_name] = {'reg_schools':parseInt(entry.reg_schools),'teams':parseInt(entry.teams),'students':parseInt(entry.students),'ideas':parseInt(entry.ideas),'reg_mentors':parseInt(entry.reg_mentors),'district_name':district_name};
                 }
-                text.textContent = dataOfmap['all'].reg_schools;
-                text1.textContent = dataOfmap['all'].teams;
-                text2.textContent = dataOfmap['all'].students;
-                text3.textContent = dataOfmap['all'].ideas;
+                text.textContent = dataOfmap['all']?.reg_schools;
+                text1.textContent = dataOfmap['all']?.teams;
+                text2.textContent = dataOfmap['all']?.students;
+                text3.textContent = dataOfmap['all']?.ideas;
                 text4.textContent = "Tamil Nadu"
-                text5.textContent = dataOfmap['all'].reg_mentors;
+                text5.textContent = dataOfmap['all']?.reg_mentors;
                 }
                 getUser();
                 //  console.log(data.data[0].dataValues[0].reg_schools,'vgvhbkjb');
